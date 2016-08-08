@@ -1,13 +1,16 @@
 body {
   font-family: helvetica,arial,sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 16px;
+  margin: 0;
 }
 
 header {
   background-color: #f3f3f3;
   display: flex;
   justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .logo {
@@ -26,8 +29,13 @@ header {
   margin-right: 15px;
 }
 
+.top_nav li a {
+  font-size: 13px;
+}
+
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: #333;
 }
 
 .container {
@@ -38,17 +46,23 @@ a {
 
 .images {
   margin: 11px;
+  align-items: center;
 }
 
 .images img {
   border:1px solid #cacaca;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 
-.images p {
+.details {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #777;
   border-bottom: 1px solid #cacaca;
-  margin-top: 5px;
-  padding-bottom: 11px;
+}
+
+.details p {
+  color: #cacaca;
 }
