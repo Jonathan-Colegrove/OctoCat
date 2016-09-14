@@ -5,6 +5,6 @@ Our goal was to reproduce the (https://octodex.github.com/ "Octodex webpage") in
 
 This was an `HTML` + `CSS` project, though we learned a great deal about the newly supported flexbox techniques, as well as how to select specific attributes in order to change them.
 
-Simply open `index.html` to check it out!
+Simply `clone / download` this project & open `index.html` to check it out!
 
-![OctoCat](https://github.com/Jonathan-Colegrove/OctoCat/README.png "OctoCat")
+![](https://github.com/Jonathan-Colegrove/OctoCat/raw/master/README.png "OctoCat")
